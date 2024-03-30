@@ -37,7 +37,7 @@ function playRound(playerSelection, computerSelection) {
         } else if (computerChoice == "paper") {
             alert("Tie! Computer chose paper.")
         } else if (computerChoice == "scissors") {
-            alert("You lost! Computer chose scissors. Scissors beats rock.")
+            alert("You lost! Computer chose scissors. Scissors beats paper.")
         }
     } else if (playerChoice == "scissors") {
         if (computerChoice == "rock") {
