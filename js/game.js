@@ -13,6 +13,7 @@ function playRound(playerSelection, computerSelection) {
 
     if (!choices.includes(playerChoice)) {
         playerChoice = prompt("Invalid response. Try again.")
+        playerChoice = playerChoice.toLowerCase()
 
         if (!choices.includes(playerChoice)) {
             alert("Invalid response. Automatic loss!")
